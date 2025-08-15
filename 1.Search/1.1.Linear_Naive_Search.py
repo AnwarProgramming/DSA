@@ -11,7 +11,7 @@ def naivesearch(L,v):
     for i in range(len(L)):
         if v==L[i]: # Case 1
             return i
-    return False # Case 1
+    return False # Case 2
 
 # Example usage
 L = [90, 4, 78, 3, 1]
